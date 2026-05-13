@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eedupuganti Phanideep | Full Stack Developer</title>
+    <meta name="description"
+    content="Portfolio of Eedupuganti Phanideep, a Full Stack Developer specializing in MEAN stack, Node.js, and modern web applications." />
+  <meta name="keywords" content="Eedupuganti Phanideep, Full Stack Developer, MEAN Stack, Node.js, Portfolio, Akrivia HCM">
+  <meta name="author" content="Eedupuganti Phanideep">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://phanideep.dev/">
+  <meta property="og:title" content="E. Phanideep | Full Stack Developer">
+  <meta property="og:description" content="Building scalable web applications and intuitive interfaces. Check out my projects and experience!">
+  <meta property="og:image" content="https://phanideep.dev/profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://phanideep.dev/">
+  <meta property="twitter:title" content="E. Phanideep | Full Stack Developer">
+  <meta property="twitter:description" content="Building scalable web applications and intuitive interfaces. Check out my projects and experience!">
+  <meta property="twitter:image" content="https://phanideep.dev/profile.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">PHANIDEEP</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+          <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="greeting fade-up">Hi, I'm</p>
+          <h1 class="fade-up" style="animation-delay: 0.1s;">Eedupuganti Phanideep</h1>
+          <h2 class="fade-up" style="animation-delay: 0.2s;"><span class="gradient-text typing-text"></span><span class="cursor">|</span>
+          </h2>
+          <p class="hero-desc fade-up" style="animation-delay: 0.3s;">
+            Building scalable web applications and intuitive interfaces. Currently a Software Development Engineer at
+            Akrivia HCM.
+          </p>
+          <div class="hero-actions fade-up" style="animation-delay: 0.4s;">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="/resume.pdf" class="btn btn-secondary" target="_blank" download="phanideep_sde_resume.pdf">Download Resume</a>
+            <a href="#contact" class="btn btn-text">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual fade-up" style="animation-delay: 0.5s;">
+          <div class="blob blob-1"></div>
+          <div class="blob blob-2"></div>
+          <div class="profile-container">
+            <img src="/profile_suit.jpg" alt="Eedupuganti Phanideep" class="profile-img" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator fade-up" style="animation-delay: 1s;">
+        <a href="#about" aria-label="Scroll down">
+          <svg width="30" height="45" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="2" width="14" height="20" rx="7" ry="7"></rect>
+            <line x1="12" y1="6" x2="12" y2="10" class="scroll-wheel"></line>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title fade-up">About Me</h2>
+        <div class="about-content fade-up">
+          <div class="about-text glass-card">
+            <p>
+              I am a passionate Full Stack Developer with experience in building and maintaining scalable web
+              applications using the MEAN Stack.
+            </p>
+            <p>
+              Currently, I work as an SDE-1 at <strong>Akrivia HCM</strong>, contributing to the development of modern
+              HRTech solutions. I focus on developing efficient backend APIs, responsive frontend applications, and
+              delivering clean, maintainable code.
+            </p>
+            <div class="education-highlight mt-4">
+              <h3>Education</h3>
+              <ul>
+                <li><strong>B.Tech in Computer Science and Engineering</strong> - SRKR Engineering College (CGPA: 9.03)
+                </li>
+                <li><strong>Intermediate (MPC)</strong> - Sasi Junior College (98.5%)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+      <div class="container">
+        <h2 class="section-title fade-up">Experience</h2>
+        <div class="timeline">
+          <!-- Role 1 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <h3>Software Development Engineer I</h3>
+              <h4 class="company">Akrivia HCM, Hyderabad</h4>
+              <p class="duration">Dec 2024 – Present</p>
+              <ul>
+                <li>Built the Interview Analytics Dashboard featuring real-time metrics on pipelines, conversions, and
+                  recruiter activity.</li>
+                <li>Enhanced backend reliability using Node.js, Knex.js, and Objection.js, improving API response times
+                  by 15–20%.</li>
+                <li>Built and integrated SpotDraft offer letter workflows, streamlining document generation.</li>
+                <li>Developed comprehensive unit test coverage for the Recruitment module.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Role 2 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-card">
+              <h3>Software Development Engineer Intern</h3>
+              <h4 class="company">Akrivia HCM, Hyderabad</h4>
+              <p class="duration">June 2024 – Dec 2024</p>
+              <ul>
+                <li>Contributed to the Recruitment module by building a dynamic Career Page that enhanced candidate
+                  engagement.</li>
+                <li>Added full internationalization (i18n) capability across the product.</li>
+                <li>Refactored legacy modules and optimized Node.js APIs for speed and reliability.</li>
+                <li>Integrated Zwayam job-posting workflows through efficient API orchestration.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <h2 class="section-title fade-up">Featured Projects</h2>
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-card glass-card fade-up">
+            <div class="project-img-wrapper">
+              <img src="/inventory.png" alt="Inventory Management" class="project-img" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/phanideep23" target="_blank" class="icon-link" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                      </path>
+                    </svg>
+                  </a>
+                  <a href="#" target="_blank" class="icon-link" aria-label="External Link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Inventory Management</h3>
+              <p>A full-stack platform with bulk upload, RBAC, real-time broadcast chat, and AWS S3 secure file
+                handling.</p>
+              <div class="tech-stack">
+                <span>Angular.js</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+                <span>AWS S3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-card fade-up">
+            <div class="project-img-wrapper">
+              <img src="/attendance.png" alt="Attendance System" class="project-img" />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/phanideep23" target="_blank" class="icon-link" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                      </path>
+                    </svg>
+                  </a>
+                  <a href="#" target="_blank" class="icon-link" aria-label="External Link">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Attendance Management System</h3>
+              <p>Location-aware attendance system using geofencing for boundary-based check-ins, reducing manual tasks
+                by 70%.</p>
+              <div class="tech-stack">
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Geolocation API</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title fade-up">Technical Skills</h2>
+        <div class="skills-container fade-up">
+          <div class="skill-category glass-card">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>C</span><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TypeScript</span>
+            </div>
+          </div>
+          <div class="skill-category glass-card">
+            <h3>Frameworks & Tools</h3>
+            <div class="skill-tags">
+              <span>Angular.js</span><span>Node.js</span><span>Express.js</span><span>VS Code</span><span>Git</span>
+            </div>
+          </div>
+          <div class="skill-category glass-card">
+            <h3>Databases & Cloud</h3>
+            <div class="skill-tags">
+              <span>MySQL</span><span>AWS S3</span><span>SQL Workbench</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="certifications section">
+      <div class="container">
+        <h2 class="section-title fade-up">Certifications & Achievements</h2>
+        <div class="cert-grid fade-up">
+          <div class="cert-card glass-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" class="cert-icon text-accent">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            <h3>PMKY Certificates</h3>
+            <p>Skill development courses under Pradhan Mantri Kaushal Vikas Yojana.</p>
+          </div>
+          <div class="cert-card glass-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" class="cert-icon text-accent">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            <h3>HackerRank</h3>
+            <p>Java (Basic) Certification.</p>
+          </div>
+          <div class="cert-card glass-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" class="cert-icon text-accent">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            <h3>British Council</h3>
+            <p>English Strokes - Interactive learning program for communication skills.</p>
+          </div>
+          <div class="cert-card glass-card">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" class="cert-icon text-accent">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            <h3>Smart India Hackathon</h3>
+            <p>Nationwide innovation challenge, built a functional prototype to address real-world problems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container text-center">
+        <h2 class="section-title fade-up">Get In Touch</h2>
+        <p class="contact-desc fade-up">Currently looking for new opportunities. Whether you have a question or just
+          want to say hi, I'll try my best to get back to you!</p>
+        <div class="contact-form-wrapper fade-up mt-4">
+          <form action="https://formsubmit.co/phanideep23@gmail.com" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required class="form-input">
+            <input type="email" name="email" placeholder="Your Email" required class="form-input">
+            <textarea name="message" placeholder="Your Message" required class="form-input" rows="5"></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New message from your portfolio!">
+            <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="social-links">
+        <a href="https://github.com/phanideep23" target="_blank" aria-label="GitHub">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/phanideep23" target="_blank" aria-label="LinkedIn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="mailto:phanideep23@gmail.com" aria-label="Email">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+      </div>
+      <p class="copyright">Designed & Built by Eedupuganti Phanideep</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
